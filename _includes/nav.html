@@ -1,5 +1,5 @@
 {%- if site.texture.showNav -%}
-{% assign navList = site.data.navigation | sort: 'title'  %}
+{% assign navList = site.data.navigation %}
 <div class="navbar">
 	<ul>
 		{% for navItem in navList %}
